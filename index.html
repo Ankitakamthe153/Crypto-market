@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Market Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Crypto Market Data</h1>
+    <input type="text" id="searchInput" placeholder="Search By Name Or Symbol">
+    <button id="sortMarketCapButton">Sort by Market Cap</button>
+    <button id="sortPercentageChangeButton">Sort by Percentage Change</button>
+    <table id="cryptoTable">
+        <tbody>
+            <thead>
+                <tr>
+                    <th class="name-header">Name</th>
+                    <th>Symbol</th>
+                    <th>Current Price</th>
+                    <th>Total Volume</th>
+                    <th>Price Change Percentage (24h)</th>
+                    <th>Market Cap</th>
+                </tr>
+            </thead>
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
